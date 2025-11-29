@@ -1,0 +1,114 @@
+/* GLOBAL */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #fff;
+    color: #222;
+}
+
+/* HEADER */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 50px;
+    margin-right: 10px;
+}
+
+nav a {
+    margin-right: 25px;
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+}
+
+.login-btn {
+    background: black;
+    color: white;
+    border: none;
+    padding: 8px 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* CONTACT SECTION */
+
+.contact-section {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.contact-section h1 {
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 0 50px;
+    flex-wrap: wrap;
+}
+
+.left-text {
+    max-width: 300px;
+    font-size: 16px;
+    color: #555;
+}
+
+.contact-form {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.submit-btn {
+    margin-top: 10px;
+    background: black;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+/* FOOTER */
+
+footer {
+    margin-top: 100px;
+    padding: 40px;
+    text-align: center;
+    font-size: 15px;
+    color: #666;
+    border-top: 1px solid #eee;
+}
+
+.socials p {
+    margin: 5px 0;
+}
+
+.email {
+    margin-top: 10px;
+    font-weight: bold;
+}

@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #fafafa;
+}
+/* NAVIGATION */
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+}
+
+.nav-bar a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+/* Titre */
+.titre {
+    text-align: center;
+    font-size: 36px;
+    margin-top: 50px;
+}
+
+/* Container */
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 50px;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+/* Cartes */
+.card {
+    background: white;
+    padding: 25px;
+    width: 280px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.card h3 {
+    text-align: center;
+}
+
+.price {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    margin: 10px 0 20px 0;
+}
+
+ul {
+    line-height: 1.8;
+}
+
+/* Bouton */
+.btn {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    background: #222;
+    color: white;
+    border-radius: 8px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #555;
+}

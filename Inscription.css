@@ -1,0 +1,96 @@
+/* GLOBAL */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #fff;
+    color: #222;
+}
+
+/* HEADER */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 50px;
+    margin-right: 10px;
+}
+
+nav a {
+    margin-right: 25px;
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+}
+
+.login-btn {
+    background: black;
+    color: white;
+    border: none;
+    padding: 8px 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* INSCRIPTION SECTION */
+
+.register-section {
+    margin-top: 50px;
+    padding-left: 60px;
+}
+
+.register-section h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    font-size: 16px;
+    color: #555;
+    max-width: 450px;
+    margin-bottom: 40px;
+}
+
+/* FORMULAIRE */
+
+.register-form {
+    width: 420px;
+    margin-top: 20px;
+    padding: 30px;
+    border: 1px solid #eee;
+    border-radius: 8px;
+}
+
+.register-form label {
+    font-size: 14px;
+    color: #333;
+}
+
+.register-form input,
+.register-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 6px 0 15px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.submit-btn {
+    width: 100%;
+    background: #222;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
